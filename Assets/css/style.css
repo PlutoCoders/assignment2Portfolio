@@ -1,39 +1,8 @@
 /* This adjusts every element */
 * {
-    box-shadow: border-box;
+    box-sizing: border-box;
     padding: 0;
     margin: 0;
-}
-
-/* Adjustments to the h1 element */
-h1 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-weight: bold;
-    font-size: 50px;
-    color: rgb(0, 0, 0);
-    text-decoration: overline;
-    text-shadow: 10px;
-    text-align: center;
-    border: 2px;
-    margin-top: 10px;
-}
-
-
-/* Adjusts the display settings of list items within the unordered list, within the nav, within the header element.*/
-.navItem {
-    display: inline;
-    margin-left: 25px;
-    list-style-type: none;
-}
-
- /* Trying to change the color of the nav item background when user hovers mouse over it */
-navItem a:hover {
-  background-color: #b80ef6;
-}
-
-/* Trying to add effects for when a nav item is clicked */
-navItem a:active {
-    background-color: blue;
 }
 
 /* Adjustments to the body element */
@@ -44,40 +13,82 @@ body {
     background-attachment:fixed;
 }
 
-/* trying to align the nav bar to the center!!!?? */
+/* setting up the header so that it shows a as bar going across the sceen. */
 header {
-    align-content: center;
-    align-self: center;
-    text-align: center;
+    position: fixed;
+    top: 0;
+    background-image: linear-gradient(rgb(36, 11, 81), rgb(96, 152, 162)); 
+    background-repeat: no-repeat;
+    width: 100%;
+    
 }
 
-/* no clue why its not working, super frustrating will figure it out later */
-#Home {
-    align-content: center;
-    align-self: center;
+/* Adjustments to the h1 "title" element */
+h1 {
+    font-family: Impact,'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    font-size: 55px;
+    color: rgb(0, 0, 0);
+    text-decoration: overline;
+    text-shadow: 20px;
     text-align: center;
+    border: 2px;
+    margin-top: 100px;
 }
-/* Adjustments to the navigation (nav) element. */
-nav {
-    border-style:solid;
-    border-radius: 5px;
-    border-color: rgb(60, 14, 104);
-    box-shadow: 5px 5px 5px rgb(81, 30, 127);
-    border-width: 5px;
-    margin: 10px;
-    height: 50px;
-    width: 666px;
+
+/* adjusting header 2s to make it bolder and bigger */
+h2 {
+    font-size: xx-large;
     text-align: center;
+    text-decoration: underline;
+    margin: 10px;
+    margin-top: 125px;
+}
+
+/* All these nav element things are to create the nav bar and add some functionality */
+nav {
+    width: 100%;
+    display:inline-block
+}
+
+
+#navLinks li {
+    list-style: none;
+    float: left;
+    display: inline;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 1%;
     align-content: center;
+    margin-left: 5%;
+}
+
+#navLinks a {
+    color: rgb(109, 187, 255);
+    transition: all .9s, ease .3s;
+}
+
+/* adding hover effects, such as color change and a shadow */
+#navLinks a:hover{
+    color: rgb(255, 255, 255);
+    text-shadow: #ffffff 1px 1px 20px;
+}
+
+/* adding button press effects, such as color change*/
+#navLinks a:active{
+    color: rgb(255, 0, 0);
+    text-shadow: #150e61 1px 1px 20px;
 }
 
 /* Styling the image that appears under the navigation element */
 .backgroundImage{
     background-image: url("icybackground.jpg");
-    border-style: outset;
+    border-style: solid;
     border-radius: 10px;
     border-color: black;
     margin: 15px;
+    margin-top: 50px;
     height: 500px;
     background-size: cover;
     image-resolution: 400px, 500px;
@@ -85,32 +96,7 @@ nav {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
-}
-
-/* Styling of the footer at the end of the page */
-footer {
-    color:rgb(26, 230, 223);
-    border-color: blueviolet;
-    border-style: outset;
-    border-width: 10px;
-    box-shadow: #000000;
-    padding: 5px;
-    text-align: center;
-    margin-top: 15px;
-}
-
-p {
-    text-align: center;
-    font-size: large;
-    text-shadow: #000000;
-}
-
-h2 {
-    font-size: xx-large;
-    text-align: center;
-    text-decoration: underline;
-    margin: 10px;
+    width: 75%;
 }
 
 /* Adjusting all img elements */
@@ -124,7 +110,14 @@ img {
     margin-left: auto;
     margin-right: auto;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 35px;
+}
+
+p {
+    text-align: center;
+    font-size: large;
+    text-shadow: #000000;
+    margin-top: 50px;
 }
 
 /* adjusting any list items so that they are centered */
@@ -133,3 +126,20 @@ li {
     font-style: italic;
     margin: 5px;
 }
+
+/* Styling of the footer at the end of the page */
+footer {
+    color:rgb(26, 230, 223);
+    border-color: rgb(93, 28, 154);
+    border-style: outset;
+    border-width: 10px;
+    box-shadow: #000000;
+    padding: 25px;
+    text-align: center;
+    margin-top: 150px;
+    font-size: x-large;
+}
+
+/* Adjustments made: 
+- accesibiltiy in images and style.css layout, 
+- improvements to nav bar */

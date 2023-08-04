@@ -11,6 +11,7 @@ The purpose of this project is to display projects in an easy to view portfolio,
 
 # Below is a screenshot of the page.
 Image: <img src="Assets/Images/pageimage.png>
+<!-- Not sure why this image isn't displaying..-->
 
 # Summary
 - In this project, my portfolio, we have many elements such as a header with a title and navigation elements to the right
@@ -23,5 +24,5 @@ Image: <img src="Assets/Images/pageimage.png>
 # Other Notes
 - The reset CSS contains copied code from week 2 notes during the reset section.
 - I used unsplash.com for free images.
-- Other than reviewing some class notes from week 2, I also used this video as reference: https://youtu.be/wRNinF7YQqQ
-- My brother Furkan also tried to help me a bit.
+- Other than reviewing some class notes from week 2, I also used this video as reference: https://youtu.be/wRNinF7YQqQ , and this: https://www.youtube.com/watch?v=PwWHL3RyQgk
+- My brother also tried to help me a bit.
