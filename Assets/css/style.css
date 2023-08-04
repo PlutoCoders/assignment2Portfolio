@@ -26,6 +26,15 @@ h1 {
     list-style-type: none;
 }
 
+ /* Trying to change the color of the nav item background when user hovers mouse over it */
+navItem a:hover {
+  background-color: #b80ef6;
+}
+
+/* Trying to add effects for when a nav item is clicked */
+navItem a:active {
+    background-color: blue;
+}
 
 /* Adjustments to the body element */
 body {

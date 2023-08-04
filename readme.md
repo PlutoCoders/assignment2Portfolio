@@ -1,6 +1,6 @@
 # Welcome to my Portfolio Assignment for Week 2!
 
-Link to Project Page: here
+Link to Project Page: <a href= "https://plutocoders.github.io/assignment2Portfolio/"> Pages Link Here </a>
 
 The repo is setup so that assets such as css styling and images are inside the Assets folder.
 Inside the Assets folder is the css folder, which contains the reset.css and style.css, as well as the Images Folder.
@@ -25,4 +25,3 @@ Image: <img src="Assets/Images/pageimage.png>
 - I used unsplash.com for free images.
 - Other than reviewing some class notes from week 2, I also used this video as reference: https://youtu.be/wRNinF7YQqQ
 - My brother Furkan also tried to help me a bit.
-
