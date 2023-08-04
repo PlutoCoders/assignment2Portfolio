@@ -1,0 +1,126 @@
+/* This adjusts every element */
+* {
+    box-shadow: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Adjustments to the h1 element */
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    text-decoration: overline;
+    text-shadow: 10px;
+    text-align: center;
+    border: 2px;
+    margin-top: 10px;
+}
+
+
+/* Adjusts the display settings of list items within the unordered list, within the nav, within the header element.*/
+.navItem {
+    display: inline;
+    margin-left: 25px;
+    list-style-type: none;
+}
+
+
+/* Adjustments to the body element */
+body {
+    background-color: rgb(27, 8, 45);
+    background-image: linear-gradient(rgb(146, 235, 255), rgb(30, 11, 60)); 
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+}
+
+/* trying to align the nav bar to the center!!!?? */
+header {
+    align-content: center;
+    align-self: center;
+    text-align: center;
+}
+
+/* no clue why its not working, super frustrating will figure it out later */
+#Home {
+    align-content: center;
+    align-self: center;
+    text-align: center;
+}
+/* Adjustments to the navigation (nav) element. */
+nav {
+    border-style:solid;
+    border-radius: 5px;
+    border-color: rgb(60, 14, 104);
+    box-shadow: 5px 5px 5px rgb(81, 30, 127);
+    border-width: 5px;
+    margin: 10px;
+    height: 50px;
+    width: 666px;
+    text-align: center;
+    align-content: center;
+}
+
+/* Styling the image that appears under the navigation element */
+.backgroundImage{
+    background-image: url("icybackground.jpg");
+    border-style: outset;
+    border-radius: 10px;
+    border-color: black;
+    margin: 15px;
+    height: 500px;
+    background-size: cover;
+    image-resolution: 400px, 500px;
+    background-position: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/* Styling of the footer at the end of the page */
+footer {
+    color:rgb(26, 230, 223);
+    border-color: blueviolet;
+    border-style: outset;
+    border-width: 10px;
+    box-shadow: #000000;
+    padding: 5px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+p {
+    text-align: center;
+    font-size: large;
+    text-shadow: #000000;
+}
+
+h2 {
+    font-size: xx-large;
+    text-align: center;
+    text-decoration: underline;
+    margin: 10px;
+}
+
+/* Adjusting all img elements */
+img {
+    height: 300px;
+    width: 450px;
+    border-style: solid;
+    border-color: black;
+    box-shadow: black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* adjusting any list items so that they are centered */
+li {
+    text-align: center;
+    font-style: italic;
+    margin: 5px;
+}
